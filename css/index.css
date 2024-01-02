@@ -226,7 +226,7 @@ nav ul {
   gap: 40px;
 }
 .skills .bars .bar {
-  width: 40%;
+  width: 100%;
 }
 .skills .bars .bar i, .skills .bars .bar svg {
   color: rgb(84, 4, 141);
@@ -428,8 +428,148 @@ nav ul {
   .contact-me form {
     width: 50%;
   }
+  .skills {
+    padding: 10px;
+  }
+  .skills .openers {
+    text-align: center;
+  }
+  .skills .openers i, .skills .openers svg {
+    color: rgb(130, 6, 218);
+  }
+  .skills .openers h1 {
+    color: rgb(140, 0, 255);
+    font-size: 2.5em;
+  }
+  .skills .bars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    gap: 40px;
+  }
+  .skills .bars .bar {
+    width: 40%;
+  }
+  .skills .bars .bar i, .skills .bars .bar svg {
+    color: rgb(84, 4, 141);
+  }
+  .skills .bars .bar .skill-bar .skill-bar-props {
+    width: 100%;
+    position: relative;
+    background-color: white;
+    height: 10px;
+    border-radius: 20px;
+  }
+  .skills .bars .bar .skill-bar .skill-bar-props .progress {
+    width: 90%;
+    position: absolute;
+    background-color: rgb(130, 6, 218);
+    height: 100%;
+    border-radius: 20px;
+  }
+  .skills h2.gen {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(169, 123, 255);
+    padding: 20px;
+    font-family: Noto Sans;
+  }
+  .skills .circle-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  .skills .circle-boxes .circle-box {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: rgb(13, 3, 43);
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .skills .circle-boxes .circle-box i, .skills .circle-boxes .circle-box svg {
+    color: rgb(149, 0, 255);
+  }
+  .skills .circle-boxes .circle-box h3 {
+    font-family: Noto Sans;
+  }
 }
 @media screen and (min-width: 868px) {
+  .skills {
+    padding: 10px;
+  }
+  .skills .openers {
+    text-align: center;
+  }
+  .skills .openers i, .skills .openers svg {
+    color: rgb(130, 6, 218);
+  }
+  .skills .openers h1 {
+    color: rgb(140, 0, 255);
+    font-size: 2.5em;
+  }
+  .skills .bars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    gap: 40px;
+  }
+  .skills .bars .bar {
+    width: 40%;
+  }
+  .skills .bars .bar i, .skills .bars .bar svg {
+    color: rgb(84, 4, 141);
+  }
+  .skills .bars .bar .skill-bar .skill-bar-props {
+    width: 100%;
+    position: relative;
+    background-color: white;
+    height: 10px;
+    border-radius: 20px;
+  }
+  .skills .bars .bar .skill-bar .skill-bar-props .progress {
+    width: 90%;
+    position: absolute;
+    background-color: rgb(130, 6, 218);
+    height: 100%;
+    border-radius: 20px;
+  }
+  .skills h2.gen {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(169, 123, 255);
+    padding: 20px;
+    font-family: Noto Sans;
+  }
+  .skills .circle-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  .skills .circle-boxes .circle-box {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: rgb(13, 3, 43);
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .skills .circle-boxes .circle-box i, .skills .circle-boxes .circle-box svg {
+    color: rgb(149, 0, 255);
+  }
+  .skills .circle-boxes .circle-box h3 {
+    font-family: Noto Sans;
+  }
   nav i.fa-bars, nav svg.fa-bars {
     display: none;
   }

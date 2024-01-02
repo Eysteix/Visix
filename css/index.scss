@@ -223,7 +223,7 @@ nav{
     padding: 10px;
     gap: 40px;
     .bar{
-    width: 40%;
+    width: 100%;
     i,svg{
         color: rgb(84, 4, 141);
     }
@@ -444,10 +444,161 @@ nav{
         width: 50%;
     }
  }
+ .skills{
+    .openers{
+      text-align: center;
+      i,svg{
+          color: rgb(130, 6, 218);
+      }
+      h1{
+          color: rgb(140, 0, 255);
+          font-size: 2.5em;
+      }
+    }
+    padding: 10px;
+    .bars{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 10px;
+      gap: 40px;
+      .bar{
+      width: 40%;
+      i,svg{
+          color: rgb(84, 4, 141);
+      }
+      .skill-bar{
+
+          .skill-bar-props{
+                  width: 100%;
+                  position: relative;
+                  background-color: white;
+                  height: 10px;
+                  border-radius: 20px;
+                  .progress{
+                      width: 90%;
+                      position: absolute;
+                      background-color: rgb(130, 6, 218);
+                      height: 100%;
+                      border-radius: 20px;
+                  }
+
+          }
+      }
+  }
+    }
+    h2.gen{
+      text-align: center;
+      font-size: 2rem;
+      color: rgb(169, 123, 255);
+      padding: 20px;
+      font-family: Noto Sans;
+    }
+    .circle-boxes{
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+      .circle-box{
+          width: 120px;
+          height: 120px;
+          border-radius: 50%;
+          background-color: rgb(13, 3, 43);
+          align-items: center;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          i,svg{
+                  color: rgb(149, 0, 255);
+          }
+          h3{
+              font-family: Noto Sans;
+          }
+      }
+    }
+
+  }
 
 }
 
 @media  screen and (min-width:868px){
+
+    .skills{
+        .openers{
+          text-align: center;
+          i,svg{
+              color: rgb(130, 6, 218);
+          }
+          h1{
+              color: rgb(140, 0, 255);
+              font-size: 2.5em;
+          }
+        }
+        padding: 10px;
+        .bars{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          padding: 10px;
+          gap: 40px;
+          .bar{
+          width: 40%;
+          i,svg{
+              color: rgb(84, 4, 141);
+          }
+          .skill-bar{
+
+              .skill-bar-props{
+                      width: 100%;
+                      position: relative;
+                      background-color: white;
+                      height: 10px;
+                      border-radius: 20px;
+                      .progress{
+                          width: 90%;
+                          position: absolute;
+                          background-color: rgb(130, 6, 218);
+                          height: 100%;
+                          border-radius: 20px;
+                      }
+
+              }
+          }
+      }
+        }
+        h2.gen{
+          text-align: center;
+          font-size: 2rem;
+          color: rgb(169, 123, 255);
+          padding: 20px;
+          font-family: Noto Sans;
+        }
+        .circle-boxes{
+          display: flex;
+          justify-content: center;
+          gap: 40px;
+          flex-wrap: wrap;
+          .circle-box{
+              width: 120px;
+              height: 120px;
+              border-radius: 50%;
+              background-color: rgb(13, 3, 43);
+              align-items: center;
+              text-align: center;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              i,svg{
+                      color: rgb(149, 0, 255);
+              }
+              h3{
+                  font-family: Noto Sans;
+              }
+          }
+        }
+
+      }
 
      nav{
         i.fa-bars,svg.fa-bars{
