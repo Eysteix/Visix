@@ -6,6 +6,7 @@
   line-height: 2em;
   font-family: Noto sans;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -148,13 +149,13 @@ nav ul {
 .projects {
   background-color: rgb(1, 1, 31);
   margin: 50px auto;
-  width: 100%;
+  width: 100vw;
   align-items: center;
 }
 .projects .openers {
   display: flex;
   margin: 0 auto;
-  width: 90%;
+  width: 100%;
   padding: 20px;
   flex-direction: column;
   justify-content: center;
