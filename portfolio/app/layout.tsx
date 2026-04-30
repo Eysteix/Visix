@@ -35,6 +35,11 @@ export const metadata: Metadata = {
     description:
       "Full-stack developer and founder of Apdroid, building scalable tech solutions from Ghana.",
   },
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
 }
 
 export default function RootLayout({
