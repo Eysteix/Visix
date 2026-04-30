@@ -47,7 +47,7 @@ export function Nav() {
     >
       <nav className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
         <a href="#" className="text-lg font-semibold tracking-tight">
-          marvel<span className="text-indigo-600">.</span>
+          Marvel<span className="text-indigo-600 text-4xl"> .</span>
         </a>
 
         <ul className="hidden md:flex items-center gap-8">
